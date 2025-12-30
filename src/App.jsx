@@ -4,8 +4,8 @@ import FormHandling from './React1/FormHandling'
 import Hooks from './React1/Hooks'
 import FormValidation from './React1/FormValidation'
 import HookuseRef from './React1/HookuseRef'
-import College from './React1/college'
-import { subjectContext } from './React1/ContextApi'
+import College from './React1/hooksmain/College'
+import { subjectContext } from './React1/hooksmain/ContextApi'
 
 function App() {
   const [sub,setSub]=useState('English');
